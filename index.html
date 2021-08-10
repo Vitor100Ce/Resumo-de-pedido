@@ -6,7 +6,9 @@
     <title>Projeto Resumo de pedido</title>
     <meta charset="utf-8">
     <meta name="author" content="Vitor Ramos">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="css/style.css">
+    
 
 </head>
 
@@ -15,30 +17,34 @@
     
         <header>
             <div class="bg">
-                <img src="images/illustration-hero.svg" alt="">
+                <img class="bg--header" src="images/illustration-hero.svg" alt="">
             </div>
         </header>
 
         <main>
             <section class="content">
-                <h1 class="title--content">Order Sumary</h1>
-                <p>You can now listen to millions fo songs, audiobooks, and podcast on any device anywhere you like!</p>
+                <h1 class="title--content">Order Summary</h1>
+                <p class="description">You can now listen to millions fo songs, audiobooks, and podcast on any device anywhere you like!
+                </p>
             </section>
 
             <section class="price">
-                <h2 class="title--price">Annual Plan</h2>
-                <p>$59.99/year</p>
-                <a href="#">Change</a>
-                <div class="icon_music"><img src="images/icon-music.svg" alt=""></div>
+                    <h2 class="title--price">Annual Plan</h2>
+                    <p>$59.99/year</p>
+                    <a class="change" href="#">Change</a>
+                    <div class="icon_music"><img src="images/icon-music.svg" alt=""></div>
             </section>
 
-            <div class="confirm-pay">
-                <a href=""><h3>Proceed to Payment</h3></a> 
-            </div>
+            <section class="pay">
 
-            <div class="cancel-pay">
-            <a href=""><h4>Cancel Order</h4></a>
-            </div>
+                <a class="confirm-pay" href="">Proceed to Payment</a>
+                
+                <div class="cancel-pay">
+                    <a href="">Cancel Order</a>
+                </div>
+
+            </section>
+            
         </main>
 
     </body>
