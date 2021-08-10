@@ -11,6 +11,7 @@ body{
     background-size: 100% 50%;
     background-position: top;
     background-attachment: fixed;
+    font-size: 16px;
 }
 
 header{
@@ -98,7 +99,7 @@ main{
     float: right;
     transform: translateY(-190%);
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1rem;
     color:  hsl(245, 75%, 52%);   
     transition: all .3s;
 }
@@ -162,5 +163,40 @@ main{
     background-size: 100% 50%;
     background-position: top;
     background-attachment: fixed;
+    font-size: 1.2rem;
     }
+
+    .title--price{
+        transform: translateY(70%);
+        text-align: left;
+        font-size: 1.2rem;
+        margin-left: 5rem;
+        color: hsl(223, 47%, 23%);
+    }
+    
+    .price p{
+        margin-top: .9rem;
+        text-align: left;
+        margin-left: 5rem;
+        font-size: 1.2rem;
+        color: hsl(224, 23%, 55%);
+        
+    }
+
+    .confirm-pay{
+        padding: 1.25rem 0;
+        border-radius: 15px;
+    }
+
+    .cancel-pay{
+        transform: translateX(-10%);
+        
+    }
+
+    .cancel-pay a{
+        font-size: 1.25rem;
+
+    }
+
+   
 }
